@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-colorFont{
+    @apply bg-gradient-to-b from-gray-300 to-white text-transparent bg-clip-text
+}
+
+.logoSize{
+    @apply w-7 h-7
+}
+
+
+
