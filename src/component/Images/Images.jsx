@@ -9,8 +9,11 @@ import javascript from '../../assets/js.png'
 import linkedin from '../../assets/linkedin.png'
 import react from '../../assets/react.svg'
 import tailwind from '../../assets/tailwind.svg'
+import next from '../../assets/next.svg'
+import ts from '../../assets/typescript.png'
 import wa from '../../assets/wa.png'
 import newArrow from '../../assets/new-arrow.png'
+
 
 import todo1 from '../../assets/project/newTodo1.png'
 import todo2 from '../../assets/project/newTodo2.png'
@@ -22,6 +25,8 @@ import nadia1 from '../../assets/project/nadia1.png'
 import nadia2 from '../../assets/project/nadia2.png'
 import zaragoza2 from '../../assets/project/zaragoza2.png'
 import zaragoza1 from '../../assets/project/zaragoza1.png'
+import quran from '../../assets/project/quran.jpg'
+import quran1 from '../../assets/project/quran1.jpg'
 
 
 const Images =  {
@@ -45,7 +50,11 @@ const Images =  {
   nadiaCafe2:nadia2,
   zaragoza1:zaragoza1,
   zaragoza2:zaragoza2,
-  newArrow:newArrow
+  newArrow:newArrow,
+  quran: quran,
+  quran1:quran1,
+  ts:ts,
+  nextJS: next
 }
 
 export default Images

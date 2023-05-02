@@ -15,30 +15,38 @@ const Header = () => {
       </div>
       <div className='uppercase absolute bottom-10 xl:bottom-20 xl:right-0 flex flex-col justify-center items-center w-full xl:w-1/2'>
         <h1 className='text-base border-b-2 border-slate-700 md:text-lg'>Skills</h1>
-        <div className='flex justify-evenly w-3/4 mt-10'>
-          <div className='group w-7 xl:w-9 h-7 xl:h-10 flex flex-col items-center justify-between'>
-            <img src={Images.html} alt="html" className='logoSize xl:w-9 xl:h-10 group-hover:animate-bounce'/>
+        <div className=' w-3/4 mt-10 flex flex-row justify-center gap-3'>
+          <div className='group w-7 xl:w-9 h-7 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.html} alt="html" className='logoSize xl:w-9 xl:h-9 group-hover:animate-bounce'/>
             <p className='hidden group-hover:inline pt-2 text-sm'>HTML</p>
           </div>
-          <div className='group w-7 h-7 xl:w-9 xl:h-10 flex flex-col items-center justify-between'>
-            <img src={Images.css} alt="css" className='logoSize xl:w-9 xl:h-10  group-hover:animate-bounce'/>
+          <div className='group w-7 h-7 xl:w-9 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.css} alt="css" className='logoSize xl:w-9 xl:h-9  group-hover:animate-bounce'/>
             <p className='hidden group-hover:inline pt-2  text-sm'>CSS</p>
           </div>
-          <div className='group w-7 h-7 xl:w-9 xl:h-10 flex flex-col items-center justify-between'>
-            <img src={Images.javascript} alt="javascript" className='logoSize xl:w-9 xl:h-10 group-hover:animate-bounce'/>
+          <div className='group w-7 h-7 xl:w-9 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.javascript} alt="javascript" className='logoSize xl:w-9 xl:h-9 group-hover:animate-bounce'/>
             <p className='hidden group-hover:inline pt-2 text-sm'>Javascript</p>
           </div>
-          <div className='group w-7 h-7 xl:w-9 xl:h-10 flex flex-col items-center justify-between'>
-            <img src={Images.bootstrap} alt="bootstrap css" className='logoSize xl:w-9 xl:h-10 group-hover:animate-bounce'/>
+          <div className='group w-7 h-7 xl:w-9 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.bootstrap} alt="bootstrap css" className='logoSize xl:w-9 xl:h-9 group-hover:animate-bounce'/>
             <p className='hidden group-hover:inline pt-2 text-sm'>Bootstrap</p>
           </div>
-          <div className='group w-7 h-7 xl:w-9 xl:h-10 flex flex-col items-center justify-between'>
-            <img src={Images.react} alt="react js" className='logoSize animate-spin group-hover:animate-none xl:w-9 xl:h-10'/>
+          <div className='group w-7 h-7 xl:w-9 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.react} alt="react js" className='logoSize animate-spin  xl:w-9 xl:h-9'/>
             <p className='hidden group-hover:inline pt-2 text-sm'>React</p>
           </div>
-          <div className='group w-7 h-7 xl:w-9 xl:h-10 flex flex-col items-center justify-between'>
-            <img src={Images.tailwind} alt="tailwind css" className='logoSize xl:w-9 xl:h-10 group-hover:animate-bounce'/>
+          <div className='group w-7 h-7 xl:w-9 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.tailwind} alt="tailwind css" className='logoSize xl:w-9 xl:h-9 group-hover:animate-bounce'/>
             <p className='hidden group-hover:inline pt-2 text-sm'>Tailwind</p>
+          </div>
+          <div className='group w-7 h-7 xl:w-9 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.nextJS} alt="tailwind css" className='logoSize xl:w-9 xl:h-9 group-hover:animate-bounce'/>
+            <p className='hidden group-hover:inline pt-2 text-sm'>Next JS</p>
+          </div>
+          <div className='group w-7 h-7 xl:w-9 xl:h-9 flex flex-col items-center justify-between'>
+            <img src={Images.ts} alt="tailwind css" className='logoSize xl:w-9 xl:h-9 group-hover:animate-bounce'/>
+            <p className='hidden group-hover:inline pt-2 text-sm'>Typescript</p>
           </div>
         </div>
       </div>       

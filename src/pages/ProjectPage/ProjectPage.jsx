@@ -28,6 +28,16 @@ const ProjectPage = () => {
       <div className="content w-full absolute top-[150px]">
         <h1 className='text-2xl font-roboto text-center pt-5 mb-20 '>Not much, but I still improve</h1>
         <div className='w-full bg-gradient-to-r  from-[#0F2027] via-[#203A43] to-[#2C5364] flex flex-col justify-center items-center  gap-5 pb-20'>
+        <ProjectCard 
+            title={`Qur'an Web Applicaton`} 
+            desc={"Created Qur'an using Next JS and Typescript. Available murothul audio and text translation in indonesian language."} 
+            firstThumb={Images.quran} 
+            secondThumb={Images.quran1} 
+            code={'https://github.com/APBD98/Quran_APP'}
+            height={'300px'}
+            display={'none'}
+          />
+
           <ProjectCard 
             title={'Todo list'} 
             desc={'React JS challenge by Devcode.gethired. Created web application to record a list of activities. Equipped with sorting menu'} 
